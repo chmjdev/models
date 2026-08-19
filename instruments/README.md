@@ -1,4 +1,8 @@
-# AUTO Widget Spec — v1
+# AUTO Instrument Spec — v2
+
+> Formerly the "widget" spec — the folder moved from `widgets/` to
+> `instruments/` and the extension from `.widget.js` to `.instrument.js`
+> in Mark 14. Old names still load; new files use the new names.
 
 A **widget** is a small sidecar instrument for the AUTO HUD: a self-contained
 panel of information or interaction that AUTO can summon and dismiss by voice.
@@ -7,7 +11,7 @@ panel of information or interaction that AUTO can summon and dismiss by voice.
 
 Built-in widgets (weather, moon, teaser, timer) ship inside AUTO itself.
 **This folder is for yours.** Drop a file in here, push, say
-*"Auto, pull the widgets"* — and it is live on the HUD, no redeploy.
+*"Auto, pull the instruments"* — and it is live on the HUD, no redeploy.
 
 ---
 
@@ -16,7 +20,7 @@ Built-in widgets (weather, moon, teaser, timer) ship inside AUTO itself.
 One widget = one file in this folder, named:
 
 ```
-<name>.widget.js          e.g.  hello-world.widget.js
+<name>.instrument.js      e.g.  hello-world.instrument.js
 ```
 
 - lower-case letters, digits, dots, dashes, underscores only
